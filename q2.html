@@ -3,16 +3,46 @@
 
 <head>
     <title>Question 2</title>
-    <!--
-a) Write a short article with appropriate headings in html that describes the key differences between writing in google docs and in an html document.
-b) Use Google fonts and an embedded stylesheet to set the default text font face to inter and all heading text to roboto.
-    -->
+    <link rel="stylesheet" href="styles.css"> <!-- Added link to external stylesheet -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif; /* Set default font face to Inter */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif; /* Set heading text to Roboto */
+        }
+    </style>
 </head>
 
 <body>
-    <x-markdown2html>
-Write a short article here
-    </x-markdown2html>
+    <article>
+        <h1>Key Differences: Google Docs vs. HTML Document</h1>
+
+        <section>
+            <h2>Writing in Google Docs</h2>
+            <p>
+                Google Docs provides a user-friendly, cloud-based platform for creating and editing documents. It offers a range of convenient features like real-time collaboration, easy sharing, and automatic saving. The interface is designed for intuitive text formatting, making it accessible to users with varying levels of technical expertise.
+            </p>
+        </section>
+
+        <section>
+            <h2>Writing in an HTML Document</h2>
+            <p>
+                Writing in HTML involves creating content using markup tags that define the structure and presentation of a web page. While it offers more control over customization and layout compared to Google Docs, it requires a basic understanding of HTML syntax. HTML documents are typically used for web development and provide flexibility for creating diverse types of content.
+            </p>
+        </section>
+
+        <section>
+            <h2>Key Takeaways</h2>
+            <ul>
+                <li>Google Docs is a user-friendly, cloud-based platform with intuitive editing features.</li>
+                <li>Writing in HTML offers greater customization and control over web page structure.</li>
+                <li>HTML requires knowledge of markup language, making it more technical than Google Docs.</li>
+            </ul>
+        </section>
+    </article>
+
     <script src="https://rhildred.github.io/custom-element/custom-element.js"></script>
 </body>
 
